@@ -16,7 +16,7 @@ numpy==1.21.6
 Pillow==9.5.0
 requests==2.31.0
 sympy==1.10.0
-torch==2.0.1
+torch==1.13.1
 torchvision==0.15.2
 typing_extensions==4.7.1
 urllib3==2.0.4
