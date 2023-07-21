@@ -28,9 +28,6 @@ def register():
 @app.route('/login/', methods = ['POST'])
 def login():
     user = request.files['img']
-    image_path = "./testimages/" + user.filename
-    user.save(image_path)
-    print(user)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     model = ConvNet().to(device)
